@@ -1,0 +1,120 @@
+<html>
+  <body>
+  <p><h1>Create Your Student Account</h1></p>
+<div>
+<div>
+<div><form action="/registerAccount" method="post" name="SignInForm">
+<h2>Student Information</h2>
+<div><label for="firstNameField">First (given) name:</label> <input maxlength="20" name="person.firstName" type="text" />
+<p><label for="lastNameField">Last name (surname):</label> <input maxlength="35" name="person.lastName" type="text"  /></p>
+</div>
+<div>
+<p>&nbsp;Sex:</p>
+</div>
+  
+<div><fieldset>
+<div><input title="Sex:" name="person.gender" type="radio" value="female" /><label for="female">Female</label></div>
+<div><input title="Sex:" name="person.gender" type="radio" value="male" /><label for="male">Male</label></div>
+</fieldset></div>
+  <div></div>
+    
+<div><fieldset title="" data-content="It's critical that your birthday information is correct to verify your identity." data-title="Date of birth:" >
+  
+  <legend>Date of birth:</legend>
+<div>
+<div><label for="birthdayMonth">DOB Month</label><select title="It's critical that your birthday information is correct to verify your identity." name="person.birthMonth">
+<option value="0">Month</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select></div>
+ <div><label for="day">DOB Day</label><select title="It's critical that your birthday information is correct to verify your identity." name="person.birthDay">
+<option value="0">Day</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select></div>
+<div><label for="birthdayYr">DOB Year</label><select title="It's critical that your birthday information is correct to verify your identity." name="person.birthYear">
+<option value="0">Year</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+</select></div>
+</div>
+</fieldset></div>
+   <div></div>
+  
+<div><label for="emailAddressField">Email address:</label> <input maxlength="50" name="person.email" type="text" value="" />
+<p><label for="confirmEmailField">Confirm email address:</label> <input maxlength="50" name="person.confirmEmail" type="text"  /></p>
+</div>
+<div>
+<div><label for="zipPostalField">ZIP/Postal code:</label><input maxlength="10" name="person.zipPostalCode" type="text" value=""  />
+<div>
+<div>
+</div>
+</div>
+</div>
+<h2>Username and Password</h2>
+<label for="userNameField">Username:</label> <input maxlength="15" name="person.userName" type="text" value="" />
+<div>
+<p>&nbsp;<label for="passwordField">Password:</label> <input title="" maxlength="15" name="person.password" type="password" data-content="Your password must be 7-15 characters with at least 1 letter and 1 number." data-title="Password" data-placement="top" data-trigger="focus" data-toggle="popover" data-container="body" data-max-chars="15" data-min-chars="7" data-validation="password" data-original-title="" /></p>
+</div>
+<div>
+</div>
+<br />
+<div><button name="form-submit" type="submit" data-form-confirm="true" data-form-check="true">Submit</button></div>
+  </body>
+  </html>
